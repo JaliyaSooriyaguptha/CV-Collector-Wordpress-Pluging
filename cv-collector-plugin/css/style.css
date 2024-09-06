@@ -1,0 +1,67 @@
+#cv-collector-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#cv-collector-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#cv-collector-form input[type="text"],
+#cv-collector-form input[type="email"],
+#cv-collector-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#cv-collector-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#cv-collector-response p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#cv-collector-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#cv-collector-table th, #cv-collector-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#cv-collector-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+#filter {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
